@@ -13,7 +13,6 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-
 public class Testing
 {
 	private static Connection	connection;
@@ -53,7 +52,6 @@ public class Testing
 		String vorname = "testUserr";
 		String nachname = "testLiefer";
 		String liefername = "TestLieferant";
-		
 
 		String addUsr = "INSERT INTO BENUTZER(Email, Vorname, Nachname, Passwort) VALUES(?, ?, ?, ?);";
 		PreparedStatement addUserFirst = connection.prepareStatement(addUsr);
